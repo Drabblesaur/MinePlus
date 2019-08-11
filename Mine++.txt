@@ -1,0 +1,26 @@
+Mining+ Mod
+- Adds 6 new ores
+	-Amathyst- can be used in weapons and can be used in replacement of lapis for better enchantment. rarish a little bit rarer than lapis
+	-Platinum
+	-Tin - Very Common - little bit weaker than gold
+	-Copper - Common (Iron level) - Weaker than Iron
+	-Bronze - not found Naturally(made in crafting table) tin ore + Copper Ore -Iron++
+	-Titaium - Rare -not as rare as Diamonds - attack power <= diamond but faster swipe speed for swords ->
+
+- ore finder -> 4 ore+compass
+	- locates the closest ore @ position
+	- can be sold by a blacksmith
+	POSSIBLE VARIATIONS
+	- Diamond locator
+	- Gold locator
+	- Iron locator
+	- Amathyst locator
+	- Platinum locator
+	- Tin locator
+	- Copper locator
+	-Titanium locator
+
+
+6 new Drop classes
+13 new block classes with 8 new block with added fuctions
+9 new recepies in the crafting table
