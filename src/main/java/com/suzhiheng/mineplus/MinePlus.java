@@ -51,6 +51,7 @@ public class MinePlus {
             event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
             event.getRegistry().register(new BlockItem(ModBlocks.COPPER_ORE, properties).setRegistryName("copper_ore"));
             event.getRegistry().register(new FirstItem());
+            event.getRegistry().register(new CopperIngot());
         }
 
     }
