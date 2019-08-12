@@ -43,15 +43,19 @@ public class MinePlus {
             // register a new block here
             event.getRegistry().register(new FirstBlock());
             event.getRegistry().register(new CopperOre());
+            event.getRegistry().register(new TinOre());
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(setup.itemGroup);
             // register a new item here
             event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
-            event.getRegistry().register(new BlockItem(ModBlocks.COPPER_ORE, properties).setRegistryName("copper_ore"));
             event.getRegistry().register(new FirstItem());
+            event.getRegistry().register(new BlockItem(ModBlocks.COPPER_ORE, properties).setRegistryName("copper_ore"));
             event.getRegistry().register(new CopperIngot());
+            event.getRegistry().register(new BlockItem(ModBlocks.TIN_ORE, properties).setRegistryName("tin_ore"));
+            event.getRegistry().register(new TinIngot());
+            event.getRegistry().register(new BronzeIngot());
         }
 
     }

@@ -7,4 +7,6 @@ public class ModBlocks {
     public static FirstBlock FIRSTBLOCK;
     @ObjectHolder("mineplus:copper_ore")
     public static CopperOre COPPER_ORE;
+    @ObjectHolder("mineplus:tin_ore")
+    public static TinOre TIN_ORE;
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "mineplus:copper_ingot"
+    },
+    "X": {
+      "item": "mineplus:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "mineplus:bronze_ingot"
+  }
+}

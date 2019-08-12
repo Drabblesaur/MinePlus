@@ -3,6 +3,9 @@
   "block.mineplus.firstblock": "First Tutorial Block",
   "block.mineplus.copper_ore": "Copper Ore",
   "item.mineplus.copper_ingot": "Copper Ingot",
+  "block.mineplus.tin_ore": "Tin Ore",
+  "item.mineplus.tin_ingot": "Tin Ingot",
+  "item.mineplus.bronze_ingot": "Bronze Ingot",
 
   "_comment": "Creative Tabs",
   "itemGroup.mineplus": "Mine++"
