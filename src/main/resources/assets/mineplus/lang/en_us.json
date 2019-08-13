@@ -1,6 +1,5 @@
 {
-  "item.mineplus.firstitem": "First Tutorial Item",
-  "block.mineplus.firstblock": "First Tutorial Block",
+  "block.mineplus.firstblock": "Green Glow Lamp",
   "block.mineplus.copper_ore": "Copper Ore",
   "item.mineplus.copper_ingot": "Copper Ingot",
   "block.mineplus.tin_ore": "Tin Ore",
@@ -12,6 +11,9 @@
   "block.mineplus.bronze_block": "Bronze Block",
   "item.mineplus.platinum_ingot": "Platinum Ingot",
   "block.mineplus.platinum_block": "Platinum Block",
+  "item.mineplus.amethyst": "Amethyst",
+  "block.mineplus.amethyst_block": "Amethyst Block",
+  "block.mineplus.amethyst_ore": "Amethyst Ore",
 
   "_comment": "Creative Tabs",
   "itemGroup.mineplus": "Mine++"
