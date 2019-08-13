@@ -19,4 +19,8 @@ public class ModBlocks {
     public static BronzeBlock BRONZE_BLOCK;
     @ObjectHolder("mineplus:platinum_block")
     public static PlatinumBlock PLATINUM_BLOCK;
+    @ObjectHolder("mineplus:amethyst_ore")
+    public static AmethystOre AMETHYST_ORE;
+    @ObjectHolder("mineplus:amethyst_block")
+    public static AmethystBlock AMETHYST_BLOCK;
 }

@@ -7,7 +7,7 @@ import net.minecraft.block.material.Material;
 public class CopperOre extends Block {
     public CopperOre() {
         super(Properties.create(Material.ROCK)
-                .sound(SoundType.METAL)
+                .sound(SoundType.STONE)
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("copper_ore");

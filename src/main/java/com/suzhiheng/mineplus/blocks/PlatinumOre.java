@@ -7,7 +7,7 @@ import net.minecraft.block.material.Material;
 public class PlatinumOre extends Block {
     public PlatinumOre() {
         super(Properties.create(Material.ROCK)
-                .sound(SoundType.METAL)
+                .sound(SoundType.STONE)
                 .hardnessAndResistance(3.0f)
         );
         setRegistryName("platinum_ore");

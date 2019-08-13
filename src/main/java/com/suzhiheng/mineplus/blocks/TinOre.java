@@ -7,7 +7,7 @@ import net.minecraft.block.material.Material;
 public class TinOre extends Block {
     public TinOre() {
         super(Properties.create(Material.ROCK)
-                .sound(SoundType.METAL)
+                .sound(SoundType.STONE)
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("tin_ore");
