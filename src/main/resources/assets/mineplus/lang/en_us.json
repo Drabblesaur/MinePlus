@@ -6,6 +6,12 @@
   "block.mineplus.tin_ore": "Tin Ore",
   "item.mineplus.tin_ingot": "Tin Ingot",
   "item.mineplus.bronze_ingot": "Bronze Ingot",
+  "block.mineplus.platinum_ore": "Platinum Ore",
+  "block.mineplus.copper_block": "Copper Block",
+  "block.mineplus.tin_block": "Tin Block",
+  "block.mineplus.bronze_block": "Bronze Block",
+  "item.mineplus.platinum_ingot": "Platinum Ingot",
+  "block.mineplus.platinum_block": "Platinum Block",
 
   "_comment": "Creative Tabs",
   "itemGroup.mineplus": "Mine++"

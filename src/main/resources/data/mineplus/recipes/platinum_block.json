@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mineplus:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "mineplus:platinum_block"
+  }
+}
