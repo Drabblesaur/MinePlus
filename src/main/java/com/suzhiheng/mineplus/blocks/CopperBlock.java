@@ -4,12 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class TinOre extends Block {
-    public TinOre() {
-        super(Properties.create(Material.ROCK)
+public class CopperBlock extends Block {
+    public CopperBlock() {
+        super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
-                .hardnessAndResistance(2.0f)
+                .hardnessAndResistance(3.0f)
         );
-        setRegistryName("tin_ore");
+        setRegistryName("copper_block");
     }
 }

@@ -6,7 +6,7 @@ import net.minecraft.block.material.Material;
 
 public class CopperOre extends Block {
     public CopperOre() {
-        super(Properties.create(Material.IRON)
+        super(Properties.create(Material.ROCK)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
         );

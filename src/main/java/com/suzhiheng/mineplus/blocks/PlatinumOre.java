@@ -4,12 +4,12 @@ import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 
-public class TinOre extends Block {
-    public TinOre() {
+public class PlatinumOre extends Block {
+    public PlatinumOre() {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.METAL)
-                .hardnessAndResistance(2.0f)
+                .hardnessAndResistance(3.0f)
         );
-        setRegistryName("tin_ore");
+        setRegistryName("platinum_ore");
     }
 }
