@@ -51,6 +51,8 @@ public class MinePlus {
             event.getRegistry().register(new PlatinumBlock());
             event.getRegistry().register(new AmethystBlock());
             event.getRegistry().register(new AmethystOre());
+            event.getRegistry().register(new TitaniumBlock());
+            event.getRegistry().register(new TitaniumOre());
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
@@ -71,6 +73,9 @@ public class MinePlus {
             event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_ORE, properties).setRegistryName("amethyst_ore"));
             event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_BLOCK, properties).setRegistryName("amethyst_block"));
             event.getRegistry().register(new Amethyst());
+            event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_ORE,properties).setRegistryName("titanium_ore"));
+            event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_BLOCK,properties).setRegistryName("titanium_block"));
+            event.getRegistry().register(new TitaniumIngot());
 
 
         }
