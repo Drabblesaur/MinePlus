@@ -14,7 +14,9 @@
   "item.mineplus.amethyst": "Amethyst",
   "block.mineplus.amethyst_block": "Amethyst Block",
   "block.mineplus.amethyst_ore": "Amethyst Ore",
-
+  "block.mineplus.titanium_block": "Titanium Block",
+  "block.mineplus.titanium_ore": "Titanium Ore",
+  "item.mineplus.titanium_ingot": "Titanium Ingot",
   "_comment": "Creative Tabs",
   "itemGroup.mineplus": "Mine++"
 }
