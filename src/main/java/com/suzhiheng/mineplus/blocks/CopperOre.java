@@ -9,6 +9,7 @@ public class CopperOre extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(2.0f)
+                .harvestLevel(2)
         );
         setRegistryName("copper_ore");
     }

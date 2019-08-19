@@ -9,6 +9,7 @@ public class CopperBlock extends Block {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(3.0f)
+                .harvestLevel(2)
         );
         setRegistryName("copper_block");
     }

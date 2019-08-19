@@ -9,6 +9,7 @@ public class PlatinumOre extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(3.0f)
+                .harvestLevel(2)
         );
         setRegistryName("platinum_ore");
     }

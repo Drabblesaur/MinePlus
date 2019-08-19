@@ -9,7 +9,7 @@ public class ModSetup {
     public  ItemGroup itemGroup = new ItemGroup("mineplus") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.FIRSTBLOCK);
+            return new ItemStack(ModBlocks.TITANIUM_BLOCK);
         }
     };
 

@@ -10,6 +10,7 @@ public class FirstBlock extends Block {
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
                 .lightValue(14)
+                .harvestLevel(0)
         );
         setRegistryName("firstblock");
     }

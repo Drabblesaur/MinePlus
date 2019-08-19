@@ -9,6 +9,7 @@ public class PlatinumBlock extends Block {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(4.5f)
+                .harvestLevel(2)
         );
         setRegistryName("platinum_block");
     }

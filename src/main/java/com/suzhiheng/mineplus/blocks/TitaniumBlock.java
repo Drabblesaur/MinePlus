@@ -9,6 +9,7 @@ public class TitaniumBlock extends Block {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(5.0f)
+                .harvestLevel(3)
         );
         setRegistryName("titanium_block");
     }

@@ -9,6 +9,7 @@ public class TinOre extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(2.0f)
+                .harvestLevel(0)
         );
         setRegistryName("tin_ore");
     }

@@ -1,11 +1,13 @@
 package com.suzhiheng.mineplus;
 
 import com.suzhiheng.mineplus.blocks.*;
+import com.suzhiheng.mineplus.lists.ToolMaterialList;
 import com.suzhiheng.mineplus.setup.*;
 import com.suzhiheng.mineplus.items.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
@@ -76,6 +78,7 @@ public class MinePlus {
             event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_ORE,properties).setRegistryName("titanium_ore"));
             event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_BLOCK,properties).setRegistryName("titanium_block"));
             event.getRegistry().register(new TitaniumIngot());
+            event.getRegistry().register(new TinPickaxe(ToolMaterialList.TIN,1,3.0f,properties));
 
 
         }

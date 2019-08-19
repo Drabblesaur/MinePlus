@@ -9,6 +9,7 @@ public class TitaniumOre extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(4.5f)
+                .harvestLevel(3)
         );
         setRegistryName("titanium_ore");
     }

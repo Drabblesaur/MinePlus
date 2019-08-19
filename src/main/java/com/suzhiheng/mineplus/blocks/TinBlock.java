@@ -9,6 +9,7 @@ public class TinBlock extends Block {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(1.5f)
+                .harvestLevel(0)
         );
         setRegistryName("tin_block");
     }
