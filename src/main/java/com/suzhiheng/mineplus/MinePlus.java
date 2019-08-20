@@ -43,42 +43,49 @@ public class MinePlus {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             // register a new block here
-            event.getRegistry().register(new FirstBlock());
+            //ORES
             event.getRegistry().register(new CopperOre());
             event.getRegistry().register(new TinOre());
             event.getRegistry().register(new PlatinumOre());
+            event.getRegistry().register(new TitaniumOre());
+            event.getRegistry().register(new AmethystOre());
+            //BLOCKS
+            event.getRegistry().register(new FirstBlock());
             event.getRegistry().register(new CopperBlock());
             event.getRegistry().register(new TinBlock());
             event.getRegistry().register(new BronzeBlock());
             event.getRegistry().register(new PlatinumBlock());
-            event.getRegistry().register(new AmethystBlock());
-            event.getRegistry().register(new AmethystOre());
             event.getRegistry().register(new TitaniumBlock());
-            event.getRegistry().register(new TitaniumOre());
+            event.getRegistry().register(new AmethystBlock());
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(setup.itemGroup);
             // register a new item here
-            event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
+            //ORES
             event.getRegistry().register(new BlockItem(ModBlocks.COPPER_ORE, properties).setRegistryName("copper_ore"));
-            event.getRegistry().register(new BlockItem(ModBlocks.COPPER_BLOCK, properties).setRegistryName("copper_block"));
-            event.getRegistry().register(new CopperIngot());
             event.getRegistry().register(new BlockItem(ModBlocks.TIN_ORE, properties).setRegistryName("tin_ore"));
-            event.getRegistry().register(new BlockItem(ModBlocks.TIN_BLOCK, properties).setRegistryName("tin_block"));
-            event.getRegistry().register(new TinIngot());
-            event.getRegistry().register(new BlockItem(ModBlocks.BRONZE_BLOCK, properties).setRegistryName("bronze_block"));
-            event.getRegistry().register(new BronzeIngot());
             event.getRegistry().register(new BlockItem(ModBlocks.PLATINUM_ORE, properties).setRegistryName("platinum_ore"));
-            event.getRegistry().register(new BlockItem(ModBlocks.PLATINUM_BLOCK, properties).setRegistryName("platinum_block"));
-            event.getRegistry().register(new PlatinumIngot());
-            event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_ORE, properties).setRegistryName("amethyst_ore"));
-            event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_BLOCK, properties).setRegistryName("amethyst_block"));
-            event.getRegistry().register(new Amethyst());
             event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_ORE,properties).setRegistryName("titanium_ore"));
+            event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_ORE, properties).setRegistryName("amethyst_ore"));
+            //BLOCKS
+            event.getRegistry().register(new BlockItem(ModBlocks.FIRSTBLOCK, properties).setRegistryName("firstblock"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COPPER_BLOCK, properties).setRegistryName("copper_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.TIN_BLOCK, properties).setRegistryName("tin_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.BRONZE_BLOCK, properties).setRegistryName("bronze_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.PLATINUM_BLOCK, properties).setRegistryName("platinum_block"));
             event.getRegistry().register(new BlockItem(ModBlocks.TITANIUM_BLOCK,properties).setRegistryName("titanium_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.AMETHYST_BLOCK, properties).setRegistryName("amethyst_block"));
+            //INGOTS
+            event.getRegistry().register(new CopperIngot());
+            event.getRegistry().register(new TinIngot());
+            event.getRegistry().register(new BronzeIngot());
+            event.getRegistry().register(new PlatinumIngot());
             event.getRegistry().register(new TitaniumIngot());
-            event.getRegistry().register(new TinPickaxe(ToolMaterialList.TIN,1,3.0f,properties));
+            event.getRegistry().register(new Amethyst());
+            //PICKAXES
+            event.getRegistry().register(new TinPickaxe(ToolMaterialList.TIN,1,-2.8F,properties));
+            event.getRegistry().register(new CopperPickaxe(ToolMaterialList.COPPER,1,-2.8f,properties));
 
 
         }
