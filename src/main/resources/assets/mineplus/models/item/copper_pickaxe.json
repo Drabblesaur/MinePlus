@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "mineplus:item/copper_pickaxe"
+    }
+}

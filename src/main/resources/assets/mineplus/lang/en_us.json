@@ -18,6 +18,7 @@
    "item.mineplus.titanium_ingot": "Titanium Ingot",
   "item.mineplus.amethyst": "Amethyst",
   "item.mineplus.tin_pickaxe": "Tin Pickaxe",
+  "item.mineplus.copper_pickaxe": "Copper Pickaxe",
   "_comment": "Creative Tabs",
   "itemGroup.mineplus": "Mine++"
 }
