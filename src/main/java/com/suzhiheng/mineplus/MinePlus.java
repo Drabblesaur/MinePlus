@@ -84,10 +84,9 @@ public class MinePlus {
             event.getRegistry().register(new TitaniumIngot());
             event.getRegistry().register(new Amethyst());
             //PICKAXES
-            event.getRegistry().register(new TinPickaxe(ToolMaterialList.TIN,1,-2.8F,properties));
-            event.getRegistry().register(new CopperPickaxe(ToolMaterialList.COPPER,1,-2.8f,properties));
-
-
+            event.getRegistry().register(new CustomPickaxe(ToolMaterialList.TIN,1,-2.8F,properties).setRegistryName("tin_pickaxe"));
+            event.getRegistry().register(new CustomPickaxe(ToolMaterialList.COPPER,1,-2.8F,properties).setRegistryName("copper_pickaxe"));
+            event.getRegistry().register(new CustomPickaxe(ToolMaterialList.BRONZE,1,-2.8F,properties).setRegistryName("bronze_pickaxe"));
         }
 
     }
